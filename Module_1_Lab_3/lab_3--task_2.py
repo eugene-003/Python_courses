@@ -26,4 +26,5 @@ def find_common_participants(participants_first_group_, participants_second_grou
 
 
 if __name__ == '__main__':
-    find_common_participants(participants_first_group, participants_second_group, '|')
+    print("Общие участники:", *find_common_participants(participants_first_group, participants_second_group, '|'))
+    
